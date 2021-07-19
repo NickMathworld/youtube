@@ -1,0 +1,29 @@
+div.card-item {
+  height: 350px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  flex-basis: calc(20% - 22px);
+}
+.card-item > img{
+  width: 100%;
+  height: 150px;
+}
+.card-item > h2 {
+  color: black;
+  font-size: 1em;
+}
+
+.card-item > p{
+  margin: 5%;
+  color: black;
+  font-size: 15px;
+  text-align: justify;
+}
+div.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px;
+}
