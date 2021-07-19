@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import FilterVideo from './components/filterVideo/filterVideo'
+import MainView from './components/Home/mainView'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FilterVideo></FilterVideo>
+      <div className="container">
+        <MainView></MainView>
+      </div>
     </div>
   );
 }
